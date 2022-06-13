@@ -1,0 +1,11 @@
+name: myapp
+title:
+username:
+account: lilabmly
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4648672
+bundleId: 5034508
+url: https://lilabmly.shinyapps.io/myapp/
+when: 1631680622.46296
+lastSyncTime: 1631680622.46296
