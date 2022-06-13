@@ -27,6 +27,11 @@ The portal is built entirely in **R** and **Shiny** using the **RStudio** develo
 
 ```
 git clone https://github.com/Lilab-SYSU/LUSC_Tex.git
+mv LUSC_Tex Tex
+cd Tex
+unzip LUSC_Symbols_latestage.zip
+cd data
+unzip LUSC_Symbols_earlystage.zip
 ```
 
 > The repository is large so it may need some time to finish it.
@@ -89,6 +94,10 @@ shiny::runApp(launch.browser = TRUE)
 $ cd /srv/shiny-server
 git clone https://github.com/Lilab-SYSU/LUSC_Tex.git
 mv LUSC_Tex Tex
+cd Tex
+unzip LUSC_Symbols_latestage.zip
+cd data
+unzip LUSC_Symbols_earlystage.zip
 # Or clone it locally and upload the directory to /srv/shiny-server using scp or other tools 
 ```
 
